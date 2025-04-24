@@ -14,3 +14,7 @@ That being said the following demo includes:
   7. releasing event instance
   8. unloading banks
   9. releasing the Fmod object
+
+If looking at the src folder you'll see that the library files are in with all the .h/.cpp files. I know this isn't the ideal/proper way to organize files, but the Godot GDExtensions template came with a Sconstruct
+file that I couldn't easily edit or add directories to so I eventually settled on just getting it to work. Afterall the goal here was to work with the Fmod API, not fumble around with a build system.
+That's for another time.
